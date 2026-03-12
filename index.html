@@ -17,6 +17,17 @@
 <body>
 
   <!-- ════════ NAVBAR ════════ -->
+  <style>
+    /* Override: blue navbar for index page */
+    .main-navbar { background: var(--blue) !important; border-bottom: 3px solid var(--red); }
+    .brand-uni  { color: rgba(255,255,255,0.7) !important; }
+    .brand-dept { color: #fff !important; }
+    .main-navbar .nav-link { color: rgba(255,255,255,0.85) !important; }
+    .main-navbar .nav-link:hover,
+    .main-navbar .nav-link.active { background: rgba(255,255,255,0.15) !important; color: #fff !important; }
+    .navbar-toggler { border-color: rgba(255,255,255,0.4) !important; }
+    .navbar-toggler-icon { filter: invert(1); }
+  </style>
   <nav class="main-navbar navbar navbar-expand-lg">
     <div class="container">
       <a class="navbar-brand" href="index.html">
@@ -40,7 +51,7 @@
   </nav>
 
   <!-- ════════ HERO ════════ -->
-  <section class="hero-section">
+  <section class="hero-section" style="background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.62)), url('HERO1.jpg') center/cover no-repeat;">
     <div class="container">
       <div class="row align-items-center gy-4">
         <div class="col-lg-7">
